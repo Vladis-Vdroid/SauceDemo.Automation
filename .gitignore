@@ -1,0 +1,20 @@
+# Build папки
+bin/
+obj/
+TestResults/
+
+# Rider / IDE файлове
+.idea/
+.vscode/
+*.user
+*.suo
+
+# Logs / Temp files
+*.log
+*.tmp
+
+# Node modules (Playwright вътрешно използва Node.js)
+node_modules/
+
+# Playwright drivers
+.playwright/
