@@ -33,15 +33,15 @@ namespace SauceDemo.Automation.Pages
         }
 
         // Взимане на текста от error съобщението
-        // public async Task<string> GetErrorMessageAsync()
-        // {
-        //     return await ErrorMessage.InnerTextAsync();
-        // }
-        //
-        // // Проверка дали error съобщението е видимо
-        // public async Task<bool> IsErrorVisibleAsync()
-        // {
-        //     return await ErrorMessage.IsVisibleAsync();
-        // }
+        public async Task<string> GetErrorMessageAsync()
+        {
+            return await ErrorMessage.InnerTextAsync();
+        }
+        
+        // Проверка дали error съобщението е видимо
+        public async Task<bool> IsErrorVisibleAsync()
+        {
+            return await ErrorMessage.IsVisibleAsync();
+        }
     }
 }

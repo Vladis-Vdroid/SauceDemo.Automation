@@ -21,20 +21,20 @@ namespace SauceDemo.Automation.Tests
             Assert.That(await Page.TitleAsync(), Is.EqualTo("Swag Labs"));
         }
 
-        // [Test]
-        // public async Task InvalidLogin_ShowsErrorMessage()
-        // {
-        //     var loginPage = new LoginPage(Page);
-        //
-        //     await loginPage.NavigateAsync();
-        //     await loginPage.LoginAsync("standard_user", "wrong_password");
-        //
-        //     // Проверка дали error съобщението е видимо
-        //     Assert.That(await loginPage.IsErrorVisibleAsync(), Is.True);
-        //
-        //     // Проверка за текста
-        //     var errorMessage = await loginPage.GetErrorMessageAsync();
-        //     Assert.That(errorMessage, Does.Contain("Username and password do not match any user in this service"));
-        // }
+        [Test]
+        public async Task InvalidLogin_ShowsErrorMessage()
+        {
+            var loginPage = new LoginPage(Page);
+        
+            await loginPage.NavigateAsync();
+            await loginPage.LoginAsync("standard_user", "wrong_password");
+        
+            // Проверка дали error съобщението е видимо
+            Assert.That(await loginPage.IsErrorVisibleAsync(), Is.True);
+        
+            // Проверка за текста
+            var errorMessage = await loginPage.GetErrorMessageAsync();
+            Assert.That(errorMessage, Does.Contain("Username and password do not match any user in this service"));
+        }
     }
 }
