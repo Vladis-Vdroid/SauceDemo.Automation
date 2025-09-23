@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BgDz0GHzfyQ=",
+  "dgSpecHash": "7TWs0pfvzhE=",
   "success": true,
   "projectFilePath": "D:\\VIProjects\\QA Test\\SauceDemo.Automation\\SauceDemo.Automation\\SauceDemo.Automation.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,7 @@
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.codecoverage\\17.12.0\\microsoft.codecoverage.17.12.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.net.test.sdk\\17.12.0\\microsoft.net.test.sdk.17.12.0.nupkg.sha512",
-    "C:\\Users\\Asus\\.nuget\\packages\\microsoft.playwright\\1.45.1\\microsoft.playwright.1.45.1.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\microsoft.playwright\\1.55.0\\microsoft.playwright.1.55.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.playwright.nunit\\1.45.1\\microsoft.playwright.nunit.1.45.1.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.playwright.testadapter\\1.45.1\\microsoft.playwright.testadapter.1.45.1.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.12.0\\microsoft.testplatform.objectmodel.17.12.0.nupkg.sha512",
@@ -21,7 +21,7 @@
     "C:\\Users\\Asus\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
-    "C:\\Users\\Asus\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
+    "C:\\Users\\Asus\\.nuget\\packages\\system.text.json\\6.0.10\\system.text.json.6.0.10.nupkg.sha512"
   ],
   "logs": []
 }
